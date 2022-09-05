@@ -1,13 +1,13 @@
 #                                                                     MILLI MOUSE
 
-This is repo for pcbs that were designed for mazesolver(RIP)
+This repo is for pcbs that were designed for mazesolver MILLIMOUSE (RIP)
 
-The project went through many changes some were minor some were major. Following are short discription about each design.
+The project went through many changes, some were minor some were major. Following are short discriptions about each design.
 
 ## MAZESOLVERWITHIR
 
-ucontroller of choice was STM32F103C8, because why not, it is faster than Arduino and has bigger storage.
-Here IR sensors act as proximity sensor. They send signals when walls are in given range.
+u(mew)controller of choice was STM32F103C8T6 , because why not, it is faster than Arduino and has a bigger storage.
+Here IR sensors acted as proximity sensors. They send signals when walls are in given range.
 RGB led was used to give indications and also to flash like police strobe light becuase why not *FLEXXXXXX*(later it was understood "why not").
 MPU6050 was used to get orientation of the bot, so that perfect 90 degree turn would be performed.
 Battery - 7.4V 2S lipo orange battery, a buck converter was used to step it down to 5V. 
